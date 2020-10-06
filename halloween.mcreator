@@ -1,0 +1,39 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OvergrownZombie",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrown_zombie"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.halloween.overgrown_zombie": "Overgrown Zombie Spawn Egg",
+      "entity.halloween.overgrown_zombie": "Overgrown Zombie"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "halloween",
+    "modName": "Halloween",
+    "version": "1.0.0",
+    "author": "admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.halloween",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
