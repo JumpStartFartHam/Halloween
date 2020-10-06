@@ -341,8 +341,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.halloween.pumpkin_pickaxe": "Pumpkin Pickaxe",
       "item.halloween.overgrown_zombie": "Overgrown Zombie Spawn Egg",
+      "item.halloween.pumpkin_pickaxe": "Pumpkin Pickaxe",
       "item.halloween.pumpkin_armor_boots": "Pumpkin Boots",
       "item.halloween.pumpkin_shovel": "Pumpkin Shovel",
       "item.halloween.spider_mask_boots": "Spider Mask Boots",
