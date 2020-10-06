@@ -1,0 +1,36 @@
+{
+  "group": "halloween",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin"
+    },
+    "1": {
+      "item": "minecraft:pumpkin"
+    },
+    "2": {
+      "item": "minecraft:pumpkin"
+    },
+    "3": {
+      "item": "minecraft:pumpkin"
+    },
+    "5": {
+      "item": "minecraft:pumpkin"
+    },
+    "6": {
+      "item": "minecraft:pumpkin"
+    },
+    "8": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "halloween:pumpkin_armor_leggings",
+    "count": 1
+  }
+}

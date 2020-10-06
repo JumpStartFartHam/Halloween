@@ -1,0 +1,22 @@
+{
+  "group": "halloween",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:green_dye"
+    },
+    "2": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "halloween:zombie_mask_helmet",
+    "count": 1
+  }
+}

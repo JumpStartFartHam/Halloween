@@ -2,22 +2,22 @@
   "_fv": 10,
   "_type": "mob",
   "definition": {
-    "mobName": "Overgrown Zombie",
+    "mobName": "Scarecrow",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "overgrown_zombie.png",
+    "mobModelName": "Modelscarecrow",
+    "mobModelTexture": "scarecrow.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelWidth": 1.0,
+    "modelHeight": 3.0,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -13395712,
+      "value": -1,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -26368,
+      "value": -1,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -33,7 +33,7 @@
       "value": ""
     },
     "equipmentHelmet": {
-      "value": "Blocks.CARVED_PUMPKIN"
+      "value": ""
     },
     "equipmentBody": {
       "value": ""
@@ -44,14 +44,14 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEAD",
-    "attackStrength": 3,
-    "movementSpeed": 0.2,
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 0,
+    "movementSpeed": 0.0,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 20,
-    "xpAmount": 6,
+    "health": 10,
+    "xpAmount": 1,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -63,26 +63,26 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
     "immuneToLightning": false,
-    "immuneToPotions": false,
+    "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "Items.ROTTEN_FLESH"
+      "value": "Blocks.HAY_BLOCK"
     },
     "livingSound": {
-      "value": "entity.zombie.ambient"
+      "value": ""
     },
     "hurtSound": {
-      "value": "entity.zombie.hurt"
+      "value": "block.grass.hit"
     },
     "deathSound": {
-      "value": "entity.zombie.death"
+      "value": "block.grass.break"
     },
     "stepSound": {
-      "value": "entity.zombie.step"
+      "value": ""
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -91,9 +91,12 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "onMobTickUpdate": {
+      "name": "ScarecrowOnEntityTickUpdate"
+    },
     "hasAI": true,
-    "aiBase": "Zombie",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"/></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -103,16 +106,16 @@
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
-    "spawningProbability": 10,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
-        "value": "swamp"
+        "value": "roofed_forest"
       }
     ],
-    "spawnInDungeons": true
+    "spawnInDungeons": false
   }
 }

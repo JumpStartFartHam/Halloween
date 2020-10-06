@@ -1,0 +1,39 @@
+{
+  "group": "halloween",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin"
+    },
+    "2": {
+      "item": "minecraft:pumpkin"
+    },
+    "3": {
+      "item": "minecraft:pumpkin"
+    },
+    "4": {
+      "item": "minecraft:pumpkin"
+    },
+    "5": {
+      "item": "minecraft:pumpkin"
+    },
+    "6": {
+      "item": "minecraft:pumpkin"
+    },
+    "7": {
+      "item": "minecraft:pumpkin"
+    },
+    "8": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "halloween:pumpkin_armor_chestplate",
+    "count": 1
+  }
+}

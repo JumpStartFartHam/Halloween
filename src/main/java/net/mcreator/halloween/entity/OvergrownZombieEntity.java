@@ -103,7 +103,7 @@ public class OvergrownZombieEntity extends HalloweenModElements.ModElement {
 			super(type, world);
 			experienceValue = 6;
 			setNoAI(false);
-			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Blocks.CARVED_PUMPKIN, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.HEAD, new ItemStack(Blocks.CARVED_PUMPKIN, (int) (1)));
 		}
 
 		@Override

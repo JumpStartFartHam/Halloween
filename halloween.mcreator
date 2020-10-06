@@ -9,14 +9,370 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "overgrown_zombie"
+    },
+    {
+      "name": "ScarecrowOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scarecrow_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scarecrow",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scarecrow"
+    },
+    {
+      "name": "PumpkinArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_armor",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PumpkinAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_axe"
+    },
+    {
+      "name": "PumpkinHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_hoe"
+    },
+    {
+      "name": "PumpkinPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pickaxe"
+    },
+    {
+      "name": "PumpkinShovel",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_shovel"
+    },
+    {
+      "name": "PumpkinSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_sword"
+    },
+    {
+      "name": "CreeperMask",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "ZombieMask",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zombie_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "SpiderMask",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spider_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "SkeletonMask",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeleton_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "ChocolateBar",
+      "type": "food",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_bar"
+    },
+    {
+      "name": "ChocolateBarRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_bar_recipe"
+    },
+    {
+      "name": "ChocolateBarItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_bar_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reaper",
+      "type": "mob",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reaper"
+    },
+    {
+      "name": "PumpkinSwordRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_sword_recipe"
+    },
+    {
+      "name": "PumpkinPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pickaxe_recipe"
+    },
+    {
+      "name": "PumpkinShovelRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_shovel_recipe"
+    },
+    {
+      "name": "PumpkinAxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_axe_recipe"
+    },
+    {
+      "name": "PumpkinHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_hoe_recipe"
+    },
+    {
+      "name": "PumpkinChestplateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_chestplate_recipe"
+    },
+    {
+      "name": "PumpkinLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_leggings_recipe"
+    },
+    {
+      "name": "PumpkinBootsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_boots_recipe"
+    },
+    {
+      "name": "ZombieMaskRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zombie_mask_recipe"
+    },
+    {
+      "name": "SkeletonMaskRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeleton_mask_recipe"
+    },
+    {
+      "name": "CreeperMaskRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_mask_recipe"
+    },
+    {
+      "name": "SpiderMaskRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spider_mask_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.halloween.pumpkin_pickaxe": "Pumpkin Pickaxe",
       "item.halloween.overgrown_zombie": "Overgrown Zombie Spawn Egg",
-      "entity.halloween.overgrown_zombie": "Overgrown Zombie"
+      "item.halloween.pumpkin_armor_boots": "Pumpkin Boots",
+      "item.halloween.pumpkin_shovel": "Pumpkin Shovel",
+      "item.halloween.spider_mask_boots": "Spider Mask Boots",
+      "item.halloween.spider_mask_chestplate": "Spider Mask Body",
+      "item.halloween.pumpkin_sword": "Pumpkin Sword",
+      "item.halloween.scarecrow": "Scarecrow Spawn Egg",
+      "item.halloween.pumpkin_armor_helmet": "Pumpkin Armor Helmet",
+      "item.halloween.skeleton_mask_chestplate": "Skeleton Mask Body",
+      "entity.halloween.overgrown_zombie": "Overgrown Zombie",
+      "item.halloween.reaper": "Reaper Spawn Egg",
+      "item.halloween.zombie_mask_helmet": "Zombie Mask",
+      "item.halloween.creeper_mask_leggings": "Creeper Mask Leggings",
+      "item.halloween.skeleton_mask_boots": "Skeleton Mask Boots",
+      "item.halloween.chocolate_bar": "Chocolate Bar",
+      "item.halloween.zombie_mask_leggings": "Zombie Mask Leggings",
+      "item.halloween.spider_mask_helmet": "Spider Mask",
+      "item.halloween.creeper_mask_helmet": "Creeper Mask",
+      "item.halloween.pumpkin_axe": "Pumpkin Axe",
+      "item.halloween.skeleton_mask_leggings": "Skeleton Mask Leggings",
+      "entity.halloween.scarecrow": "Scarecrow",
+      "entity.halloween.reaper": "Reaper",
+      "item.halloween.creeper_mask_chestplate": "Creeper Mask Body",
+      "item.halloween.creeper_mask_boots": "Creeper Mask Boots",
+      "item.halloween.pumpkin_armor_leggings": "Pumpkin Leggings",
+      "item.halloween.skeleton_mask_helmet": "Skeleton Mask",
+      "item.halloween.pumpkin_armor_chestplate": "Pumpkin Chestplate",
+      "item.halloween.pumpkin_hoe": "Pumpkin Hoe",
+      "item.halloween.spider_mask_leggings": "Spider Mask Leggings",
+      "item.halloween.zombie_mask_chestplate": "Zombie Mask Body",
+      "item.halloween.zombie_mask_boots": "Zombie Mask Boots"
     }
   },
   "workspaceSettings": {
