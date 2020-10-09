@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "halloween:block/ouija_board"
+    },
+    "facing=east": {
+      "model": "halloween:block/ouija_board",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "halloween:block/ouija_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "halloween:block/ouija_board",
+      "y": 270
+    }
+  }
+}

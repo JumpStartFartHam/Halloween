@@ -335,44 +335,258 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spider_mask_recipe"
+    },
+    {
+      "name": "OuijaBoard",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ouija_board"
+    },
+    {
+      "name": "OuijaBoardRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ouija_board_recipe"
+    },
+    {
+      "name": "WendigoThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wendigo_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wendigo",
+      "type": "mob",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wendigo"
+    },
+    {
+      "name": "VampirismOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampirism_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vampirism",
+      "type": "potion",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampirism"
+    },
+    {
+      "name": "VampirismApplyEffects",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampirism_apply_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VampireBat",
+      "type": "mob",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire_bat"
+    },
+    {
+      "name": "VampireBloodFoodEaten",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire_blood_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VampireBatEntityIsHurt",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire_bat_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodFoodEaten",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "food",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood"
+    },
+    {
+      "name": "MagmaFiend",
+      "type": "mob",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_fiend"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "effect.vampirism": "Vampirism",
       "item.halloween.overgrown_zombie": "Overgrown Zombie Spawn Egg",
       "item.halloween.pumpkin_pickaxe": "Pumpkin Pickaxe",
       "item.halloween.pumpkin_armor_boots": "Pumpkin Boots",
       "item.halloween.pumpkin_shovel": "Pumpkin Shovel",
       "item.halloween.spider_mask_boots": "Spider Mask Boots",
+      "entity.halloween.vampire_bat": "Vampire Bat",
       "item.halloween.spider_mask_chestplate": "Spider Mask Body",
+      "item.halloween.blood": "Blood",
       "item.halloween.pumpkin_sword": "Pumpkin Sword",
       "item.halloween.scarecrow": "Scarecrow Spawn Egg",
+      "item.minecraft.splash_potion.effect.vampirism": "Splash Vampirism",
       "item.halloween.pumpkin_armor_helmet": "Pumpkin Armor Helmet",
+      "item.halloween.magma_fiend": "Magma Fiend Spawn Egg",
       "item.halloween.skeleton_mask_chestplate": "Skeleton Mask Body",
       "entity.halloween.overgrown_zombie": "Overgrown Zombie",
+      "item.minecraft.potion.effect.vampirism": "Vampirism",
       "item.halloween.reaper": "Reaper Spawn Egg",
       "item.halloween.zombie_mask_helmet": "Zombie Mask",
+      "item.minecraft.tipped_arrow.effect.vampirism": "Arrow of Vampirism",
       "item.halloween.creeper_mask_leggings": "Creeper Mask Leggings",
       "item.halloween.skeleton_mask_boots": "Skeleton Mask Boots",
       "item.halloween.chocolate_bar": "Chocolate Bar",
       "item.halloween.zombie_mask_leggings": "Zombie Mask Leggings",
+      "entity.halloween.magma_fiend": "Magma Fiend",
       "item.halloween.spider_mask_helmet": "Spider Mask",
       "item.halloween.creeper_mask_helmet": "Creeper Mask",
       "item.halloween.pumpkin_axe": "Pumpkin Axe",
       "item.halloween.skeleton_mask_leggings": "Skeleton Mask Leggings",
       "entity.halloween.scarecrow": "Scarecrow",
+      "item.halloween.vampire_bat": "Vampire Bat Spawn Egg",
       "entity.halloween.reaper": "Reaper",
+      "item.halloween.wendigo": "Wendigo Spawn Egg",
       "item.halloween.creeper_mask_chestplate": "Creeper Mask Body",
       "item.halloween.creeper_mask_boots": "Creeper Mask Boots",
+      "entity.halloween.wendigo": "Wendigo",
       "item.halloween.pumpkin_armor_leggings": "Pumpkin Leggings",
+      "item.minecraft.lingering_potion.effect.vampirism": "Lingering Vampirism",
       "item.halloween.skeleton_mask_helmet": "Skeleton Mask",
       "item.halloween.pumpkin_armor_chestplate": "Pumpkin Chestplate",
       "item.halloween.pumpkin_hoe": "Pumpkin Hoe",
       "item.halloween.spider_mask_leggings": "Spider Mask Leggings",
       "item.halloween.zombie_mask_chestplate": "Zombie Mask Body",
-      "item.halloween.zombie_mask_boots": "Zombie Mask Boots"
+      "item.halloween.zombie_mask_boots": "Zombie Mask Boots",
+      "block.halloween.ouija_board": "Ouija Board"
     }
   },
   "workspaceSettings": {

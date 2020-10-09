@@ -1,0 +1,8 @@
+{
+  "parent": "halloween:custom/ouija",
+  "textures": {
+    "all": "halloween:blocks/board",
+    "particle": "halloween:blocks/board",
+    "texture": "halloween:blocks/board"
+  }
+}
