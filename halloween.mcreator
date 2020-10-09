@@ -536,6 +536,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_fiend"
+    },
+    {
+      "name": "GiantSpider",
+      "type": "mob",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_spider"
     }
   ],
   "variable_elements": [],
@@ -559,6 +568,7 @@
       "item.halloween.skeleton_mask_chestplate": "Skeleton Mask Body",
       "entity.halloween.overgrown_zombie": "Overgrown Zombie",
       "item.minecraft.potion.effect.vampirism": "Vampirism",
+      "item.halloween.giant_spider": "Giant Spider Spawn Egg",
       "item.halloween.reaper": "Reaper Spawn Egg",
       "item.halloween.zombie_mask_helmet": "Zombie Mask",
       "item.minecraft.tipped_arrow.effect.vampirism": "Arrow of Vampirism",
@@ -569,6 +579,7 @@
       "entity.halloween.magma_fiend": "Magma Fiend",
       "item.halloween.spider_mask_helmet": "Spider Mask",
       "item.halloween.creeper_mask_helmet": "Creeper Mask",
+      "entity.halloween.giant_spider": "Giant Spider",
       "item.halloween.pumpkin_axe": "Pumpkin Axe",
       "item.halloween.skeleton_mask_leggings": "Skeleton Mask Leggings",
       "entity.halloween.scarecrow": "Scarecrow",
