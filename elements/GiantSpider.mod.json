@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Giant Spider",
     "mobLabel": "",
-    "mobModelName": "Modelgiant_spider",
+    "mobModelName": "Modelqueen_spider",
     "mobModelTexture": "giant_spider.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.4,
@@ -13,11 +13,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -14606047,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -5763570,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -46,12 +46,12 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 6,
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 50,
+    "xpAmount": 4,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -63,26 +63,26 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "Items.SPIDER_EYE"
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.spider.ambient"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.spider.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.spider.death"
     },
     "stepSound": {
-      "value": ""
+      "value": "entity.spider.step"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -92,7 +92,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasAI": true,
-    "aiBase": "(none)",
+    "aiBase": "Spider",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
@@ -104,11 +104,105 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 3,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "forest_hills"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "smaller_extreme_hills"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "jungle_hills"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "redwood_taiga_hills"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "badlands_plateau"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

@@ -4,12 +4,12 @@
   "definition": {
     "mobName": "Magma Fiend",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "magma_fiend.png",
-    "mobModelGlowTexture": "",
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
+    "mobModelName": "Modelmagma_fiend",
+    "mobModelTexture": "magma_fiend_texture.png",
+    "mobModelGlowTexture": "magma_fiend_glowing.png",
+    "modelWidth": 1.0,
+    "modelHeight": 2.5,
+    "modelShadowSize": 1.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -3457785,
+      "value": -752350,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "Items.TRIDENT"
+      "value": ""
     },
     "equipmentOffHand": {
       "value": ""
@@ -46,11 +46,11 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
-    "movementSpeed": 0.3,
+    "attackStrength": 7,
+    "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 20,
+    "health": 40,
     "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
@@ -70,44 +70,44 @@
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "Items.MAGMA_CREAM"
+      "value": ""
     },
     "livingSound": {
-      "value": "entity.drowned.ambient"
+      "value": "entity.enderdragon.hurt"
     },
     "hurtSound": {
-      "value": "entity.drowned.hurt"
+      "value": "entity.irongolem.hurt"
     },
     "deathSound": {
-      "value": "entity.drowned.death"
+      "value": "entity.irongolem.death"
     },
     "stepSound": {
-      "value": "entity.drowned.step"
+      "value": ""
     },
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "FLAME"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityIronGolem</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityVillager</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
-    "ranged": true,
+    "ranged": false,
     "rangedAttackItem": {
-      "value": "Items.TRIDENT"
+      "value": ""
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 5,
+    "spawningProbability": 2,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 2,
-    "maxNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
         "value": "nether"
