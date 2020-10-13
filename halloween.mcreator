@@ -545,14 +545,174 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_fiend"
+    },
+    {
+      "name": "WitchsWandRightClickedInAir",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "witchs_wand_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitchsWand",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "witchs_wand"
+    },
+    {
+      "name": "WitchsWandDropProcedure",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "witchs_wand_drop_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wolfman",
+      "type": "mob",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolfman"
+    },
+    {
+      "name": "GiantSpiderOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_spider_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantSpiderOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_spider_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantSpiderWebProcedure",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_spider_web_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Marrow",
+      "type": "mob",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marrow"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.halloween.overgrown_zombie": "Overgrown Zombie Spawn Egg",
       "item.halloween.pumpkin_pickaxe": "Pumpkin Pickaxe",
+      "item.halloween.overgrown_zombie": "Overgrown Zombie Spawn Egg",
       "entity.halloween.vampire_bat": "Vampire Bat",
       "item.halloween.spider_mask_chestplate": "Spider Mask Body",
       "item.halloween.blood": "Blood",
@@ -560,14 +720,18 @@
       "item.halloween.zombie_mask_helmet": "Zombie Mask",
       "item.halloween.creeper_mask_leggings": "Creeper Mask Leggings",
       "item.halloween.skeleton_mask_boots": "Skeleton Mask Boots",
+      "entity.halloween.wolfman": "Wolfman",
       "entity.halloween.magma_fiend": "Magma Fiend",
       "item.halloween.spider_mask_helmet": "Spider Mask",
       "item.halloween.creeper_mask_helmet": "Creeper Mask",
       "item.halloween.pumpkin_axe": "Pumpkin Axe",
       "entity.halloween.scarecrow": "Scarecrow",
       "item.halloween.vampire_bat": "Vampire Bat Spawn Egg",
-      "item.halloween.creeper_mask_boots": "Creeper Mask Boots",
       "item.halloween.creeper_mask_chestplate": "Creeper Mask Body",
+      "item.halloween.creeper_mask_boots": "Creeper Mask Boots",
+      "item.halloween.witchs_wand": "Witch\u0027s Wand",
+      "entity.halloween.marrow": "Marrow",
+      "item.halloween.wolfman": "Wolfman Spawn Egg",
       "item.halloween.zombie_mask_chestplate": "Zombie Mask Body",
       "item.halloween.zombie_mask_boots": "Zombie Mask Boots",
       "effect.vampirism": "Vampirism",
@@ -586,6 +750,7 @@
       "item.minecraft.tipped_arrow.effect.vampirism": "Arrow of Vampirism",
       "item.halloween.chocolate_bar": "Chocolate Bar",
       "item.halloween.zombie_mask_leggings": "Zombie Mask Leggings",
+      "item.halloween.marrow": "Marrow Spawn Egg",
       "entity.halloween.giant_spider": "Giant Spider",
       "item.halloween.skeleton_mask_leggings": "Skeleton Mask Leggings",
       "entity.halloween.reaper": "Reaper",
