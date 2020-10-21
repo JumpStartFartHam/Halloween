@@ -3,11 +3,11 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="halloween"
-version="1.0.0"
+version="10.20.2020"
 displayName="Halloween"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="admin, MCreator"
+authors="JumpStartFartHam"
 
 [[dependencies.halloween]]
     modId="minecraft"
